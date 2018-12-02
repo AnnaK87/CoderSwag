@@ -15,6 +15,7 @@
 		677E198621A45C340072E923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677E198521A45C340072E923 /* Assets.xcassets */; };
 		677E198921A45C340072E923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677E198721A45C340072E923 /* LaunchScreen.storyboard */; };
 		677E199421A464D30072E923 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677E199321A464D30072E923 /* CategoryCell.swift */; };
+		67DFF4EA21B43A06004EC7FD /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DFF4E921B43A06004EC7FD /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		677E198821A45C340072E923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		677E198A21A45C340072E923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		677E199321A464D30072E923 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		67DFF4E921B43A06004EC7FD /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				677E199321A464D30072E923 /* CategoryCell.swift */,
+				67DFF4E921B43A06004EC7FD /* ProductCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				677E198121A45C330072E923 /* CategoriesVC.swift in Sources */,
 				677E197F21A45C330072E923 /* AppDelegate.swift in Sources */,
 				677E199421A464D30072E923 /* CategoryCell.swift in Sources */,
+				67DFF4EA21B43A06004EC7FD /* ProductCell.swift in Sources */,
 				6759D15321A6013D00DD0C86 /* Category.swift in Sources */,
 				6759D15621A601FD00DD0C86 /* DataService.swift in Sources */,
 			);
