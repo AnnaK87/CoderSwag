@@ -47,7 +47,7 @@ class DataServie {
             return getHats()
         case "HOODIES":
             return getHoodies()
-        case "Digital":
+        case "DIGITAL":
             return getDigitalGoods()
         default:
             return getShirts()
